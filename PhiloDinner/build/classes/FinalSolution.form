@@ -69,7 +69,7 @@
               <EmptySpace min="-2" pref="165" max="-2" attributes="0"/>
               <Component id="pnFork4" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="32767" attributes="0"/>
-              <Component id="prFork2" min="-2" max="-2" attributes="0"/>
+              <Component id="pnFork2" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="192" max="-2" attributes="0"/>
           </Group>
           <Group type="102" attributes="0">
@@ -128,7 +128,7 @@
                       <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
                           <Component id="pnFork4" max="32767" attributes="0"/>
-                          <Component id="prFork2" max="32767" attributes="0"/>
+                          <Component id="pnFork2" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
@@ -264,7 +264,7 @@
         </Component>
       </SubComponents>
     </Container>
-    <Container class="javax.swing.JPanel" name="prFork2">
+    <Container class="javax.swing.JPanel" name="pnFork2">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="ff" red="0" type="rgb"/>

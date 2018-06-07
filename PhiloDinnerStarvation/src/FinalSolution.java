@@ -509,22 +509,16 @@ public class FinalSolution extends javax.swing.JFrame {
                 while (true){
                     try {
                         pnPer1.setBackground(Color.red);
-                        sleep(5000);
+                        sleep(1000);
                         pnFork5.setBackground(Color.yellow);
-                        sleep(5000);
+                        sleep(1000);
                         pnFork1.setBackground(Color.yellow);
-                        pnPer1.setBackground(Color.yellow);
-                        sleep(5000);
-                        pnPer1.setBackground(Color.green);
+                        sleep(1000);
                         pnFork5.setBackground(Color.green);
+                        sleep(1000);
                         pnFork1.setBackground(Color.green);
-                        synchronized(t5){
-                            t5.notify();
-                        }
-                        synchronized(this){
-                            wait();
-                        }
-                       
+                        sleep(1000);
+                        pnPer1.setBackground(Color.green);
                     } catch (InterruptedException e){}
                 }
             }
@@ -536,24 +530,17 @@ public class FinalSolution extends javax.swing.JFrame {
             public void run(){
                 while(true){
                     try {
-                        synchronized(this){
-                            wait();
-                        }
                         pnPer2.setBackground(Color.red);
-                        sleep(5000);
+                        sleep(1000);
                         pnFork1.setBackground(Color.yellow);
-                        sleep(5000);
+                        sleep(1000);
                         pnFork2.setBackground(Color.yellow);
-                        pnPer2.setBackground(Color.yellow);
-                        sleep(5000);
-                        pnPer2.setBackground(Color.green);
+                        sleep(1000);
                         pnFork1.setBackground(Color.green);
+                        sleep(1000);
                         pnFork2.setBackground(Color.green);
-                        synchronized(t1){
-                            t1.notify();
-                        }
-                        
-                        
+                        sleep(1000);
+                        pnPer2.setBackground(Color.green);
                     }catch (InterruptedException e){}
                         
                 }
@@ -566,25 +553,17 @@ public class FinalSolution extends javax.swing.JFrame {
             public void run(){
                 while(true){
                     try {
-                        
                         pnPer3.setBackground(Color.red);
-                        sleep(5000);
+                        sleep(1000);
                         pnFork2.setBackground(Color.yellow);
-                        sleep(5000);
+                        sleep(1000);
                         pnFork3.setBackground(Color.yellow);
-                         pnPer3.setBackground(Color.yellow);
-                         sleep(5000);
-                         pnPer3.setBackground(Color.green);
-                         pnFork3.setBackground(Color.green);
-                         pnFork2.setBackground(Color.green);
-                         
-                        synchronized(t2){
-                            t2.notify();
-                        }
-                        synchronized(this){
-                            wait();
-                        }
-                       
+                        sleep(1000);
+                        pnFork2.setBackground(Color.green);
+                        sleep(1000);
+                        pnFork3.setBackground(Color.green);
+                        sleep(1000);
+                        pnPer3.setBackground(Color.green);
                     }catch (InterruptedException e){}
                         
                 }
@@ -597,26 +576,17 @@ public class FinalSolution extends javax.swing.JFrame {
             public void run(){
                 while(true){
                     try {
-                        synchronized(t3){
-                            t3.notify();
-                        }
-                        sleep(5000);
-                        synchronized(this){
-                            wait();
-                        }
                         pnPer4.setBackground(Color.red);
-                        sleep(5000);
+                        sleep(1000);
                         pnFork3.setBackground(Color.yellow);
-                        sleep(5000);
+                        sleep(1000);
                         pnFork4.setBackground(Color.yellow);
-                        pnPer4.setBackground(Color.yellow);
-                        sleep(5000);
-                        pnPer4.setBackground(Color.green);
-                        pnFork4.setBackground(Color.green);
+                        sleep(1000);
                         pnFork3.setBackground(Color.green);
-                        
-                        
-                       
+                        sleep(1000);
+                        pnFork4.setBackground(Color.green);
+                        sleep(1000);
+                        pnPer4.setBackground(Color.green);
                     }catch (InterruptedException e){}
                         
                 }
@@ -629,28 +599,17 @@ public class FinalSolution extends javax.swing.JFrame {
             public void run(){
                 while(true){
                     try {
-                        synchronized(this){
-                            wait();
-                        }
-                        
-                        
-                        
                         pnPer5.setBackground(Color.red);
-                        sleep(5000);
+                        sleep(1000);
                         pnFork4.setBackground(Color.yellow);
-                        sleep(5000);
+                        sleep(1000);
                         pnFork5.setBackground(Color.yellow);
-                        pnPer5.setBackground(Color.yellow);
-                        
-                        sleep(5000);
-                        pnPer5.setBackground(Color.green);
+                        sleep(1000);
                         pnFork4.setBackground(Color.green);
+                        sleep(1000);
                         pnFork5.setBackground(Color.green);
-                        synchronized(t4){
-                            t4.notify();
-                        }
-                        
-                       
+                        sleep(1000);
+                        pnPer5.setBackground(Color.green);
                     }catch (InterruptedException e){}
                         
                 }
